@@ -4,6 +4,7 @@ import { fileURLToPath, URL } from "url";
 
 // https://vitejs.dev/config/
 export default defineConfig({
+  base: "/fullscreen-with-scroll/",
   server: {
     port: 8080,
   },
